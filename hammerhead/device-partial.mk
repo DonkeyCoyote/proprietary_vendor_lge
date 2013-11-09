@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
+    vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/hammerhead/proprietary/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/hammerhead/proprietary/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/hammerhead/proprietary/libadiertac.so:system/vendor/lib/libadiertac.so \
