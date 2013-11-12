@@ -45,8 +45,8 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/adsp.b11:system/vendor/firmware/adsp.b11 \
     vendor/lge/hammerhead/proprietary/adsp.b12:system/vendor/firmware/adsp.b12 \
     vendor/lge/hammerhead/proprietary/adsp.mdt:system/vendor/firmware/adsp.mdt \
-    vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
-    vendor/lge/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
+    vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
+    vendor/lge/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd \
     vendor/lge/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd \
     vendor/lge/hammerhead/proprietary/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/hammerhead/proprietary/bu24205_LGIT_VER_2_DATA1.bin:system/vendor/firmware/bu24205_LGIT_VER_2_DATA1.bin \
@@ -194,6 +194,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/hammerhead/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/hammerhead/proprietary/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/proprietary/libxml.so:system/lib/libxml.so \
     vendor/lge/hammerhead/proprietary/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/hammerhead/proprietary/mpdecision:system/bin/mpdecision \
@@ -230,4 +231,4 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/lge/hammerhead/proprietary/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/lge/hammerhead/proprietary/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/lge/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/lge/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt
