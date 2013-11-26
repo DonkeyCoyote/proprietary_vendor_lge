@@ -159,22 +159,33 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
     vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/mako/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
     vendor/lge/mako/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
     vendor/lge/mako/proprietary/vendor/lib/libloc_api_v02.so:/system/vendor/lib/libloc_api_v02.so \
-    vendor/lge/mako/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so \
-    vendor/lge/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/lge/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/lge/mako/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so
