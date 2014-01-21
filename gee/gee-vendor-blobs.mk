@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/gee/proprietary/bin/ks:system/bin/ks \
     vendor/lge/gee/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/gee/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/gee/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/gee/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/gee/proprietary/bin/port-bridge:system/bin/port-bridge \
