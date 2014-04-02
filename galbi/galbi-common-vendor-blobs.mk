@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/galbi/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/galbi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/galbi/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/galbi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/galbi/proprietary/bin/rild:system/bin/rild \
     vendor/lge/galbi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/galbi/proprietary/bin/thermald:system/bin/thermald \
@@ -75,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/galbi/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/galbi/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/galbi/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/lge/galbi/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/lge/galbi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/galbi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/galbi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -239,6 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/galbi/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/lge/galbi/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/galbi/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/galbi/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/galbi/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/galbi/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/lge/galbi/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
@@ -266,4 +265,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/galbi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/galbi/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/galbi/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/galbi/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+    vendor/lge/galbi/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/lge/galbi/proprietary/vendor/firmware/dxhdcp2.b00:system/vendor/firmware/dxhdcp2.b00 \
+    vendor/lge/galbi/proprietary/vendor/firmware/dxhdcp2.b01:system/vendor/firmware/dxhdcp2.b01 \
+    vendor/lge/galbi/proprietary/vendor/firmware/dxhdcp2.b02:system/vendor/firmware/dxhdcp2.b02 \
+    vendor/lge/galbi/proprietary/vendor/firmware/dxhdcp2.b03:system/vendor/firmware/dxhdcp2.b03 \
+    vendor/lge/galbi/proprietary/vendor/firmware/dxhdcp2.mdt:system/vendor/firmware/dxhdcp2.mdt

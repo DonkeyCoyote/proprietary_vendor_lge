@@ -14,6 +14,8 @@
 
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/galbi/proprietary/lib/ril/libril.so:system/lib/libril.so \
+    vendor/lge/galbi/proprietary/lib/ril/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/galbi/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/galbi/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
     vendor/lge/galbi/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd
