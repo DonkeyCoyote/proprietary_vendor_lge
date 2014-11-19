@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/lge/mako/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/mako/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/lge/mako/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/mako/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/mako/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/mako/proprietary/lib/libmercury.so:system/lib/libmercury.so \
@@ -188,4 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
     vendor/lge/mako/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
     vendor/lge/mako/proprietary/vendor/lib/libloc_api_v02.so:/system/vendor/lib/libloc_api_v02.so \
-    vendor/lge/mako/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so
+    vendor/lge/mako/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so \
+    vendor/lge/mako/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
+    vendor/lge/mako/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so
