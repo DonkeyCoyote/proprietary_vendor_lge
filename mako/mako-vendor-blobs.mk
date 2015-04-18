@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/mako/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/mako/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+    vendor/lge/mako/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/mako/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/lge/mako/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/lge/mako/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/mako/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/mako/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
