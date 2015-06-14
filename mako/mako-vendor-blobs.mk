@@ -167,6 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
     vendor/lge/mako/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/mako/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/mako/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/mako/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
