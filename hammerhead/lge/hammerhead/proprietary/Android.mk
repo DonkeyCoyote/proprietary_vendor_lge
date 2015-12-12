@@ -1,3 +1,5 @@
+ifeq ($(TARGET_DEVICE),hammerhead)
+
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -11,3 +13,4 @@ LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
+endif
