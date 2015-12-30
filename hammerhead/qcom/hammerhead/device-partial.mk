@@ -68,6 +68,8 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/liboemcrypto.so:system/lib/liboemcrypto.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libQSEEComAPI.so:system/lib/libQSEEComAPI.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/libssd.so:system/lib/libssd.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libxml.so:system/lib/libxml.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw:qcom \
