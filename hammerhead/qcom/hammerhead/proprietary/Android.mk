@@ -28,11 +28,11 @@ LOCAL_MODULE_OWNER := qcom
 # Create symbolic link because user space can access persist directory,
 # while kernel ALSA drivers can only access the /system/etc/firmware directory
 LOCAL_POST_INSTALL_CMD := \
-    mkdir -p $(TARGET_OUT_ETC)/firmware/wcd9310; \
-        ln -sf /data/misc/audio/wcd9310_anc.bin \
-        $(TARGET_OUT_ETC)/firmware/wcd9310/wcd9310_anc.bin; \
+    mkdir -p $(TARGET_OUT_ETC)/firmware/wcd9320; \
+        ln -sf /data/misc/audio/wcd9320_anc.bin \
+        $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_anc.bin; \
         ln -sf /data/misc/audio/mbhc.bin \
-        $(TARGET_OUT_ETC)/firmware/wcd9310/wcd9310_mbhc.bin
+        $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_mbhc.bin
 
 #include $(BUILD_PREBUILT)
 
