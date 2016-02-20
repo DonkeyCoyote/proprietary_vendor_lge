@@ -43,4 +43,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
     vendor/lge/hammerhead/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
+    vendor/lge/hammerhead/lge/hammerhead/proprietary/etc/flp.conf:system/etc/flp.conf:lge \
+    vendor/lge/hammerhead/lge/hammerhead/proprietary/etc/permissions/serviceitems.xml:system/etc/permissions/serviceitems.xml:lge \
+    vendor/lge/hammerhead/lge/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar:lge \
 
