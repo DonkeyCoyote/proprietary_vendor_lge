@@ -181,6 +181,8 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:qcom \
