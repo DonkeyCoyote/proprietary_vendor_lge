@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     shutdownlistener \
-    UpdateSetting
+    UpdateSetting \
+    libacdbloader
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
