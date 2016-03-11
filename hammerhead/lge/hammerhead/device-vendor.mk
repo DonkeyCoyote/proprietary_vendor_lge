@@ -13,6 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+    OmaDmclient \
+    SprintHiddenMenu \
     qcrilmsgtunnel \
     TimeService \
     shutdownlistener \
