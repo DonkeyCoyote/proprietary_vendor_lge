@@ -171,16 +171,16 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/widevine.b00:system/vendor/firmware/widevine.b00:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/widevine.b01:system/vendor/firmware/widevine.b01:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/widevine.b02:system/vendor/firmware/widevine.b02:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/widevine.b03:system/vendor/firmware/widevine.b03:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03:qcom \
-    vendor/lge/hammerhead/qcom/hammerhead/proprietary/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03:qcom \
+    vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so:qcom \
     vendor/lge/hammerhead/qcom/hammerhead/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:qcom \
