@@ -25,14 +25,14 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+    com.qualcomm.location
 
 PRODUCT_PACKAGES += \
     libFlacSwDec \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
