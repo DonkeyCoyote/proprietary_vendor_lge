@@ -23,6 +23,9 @@ PRODUCT_PACKAGES += \
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
+# twrp decrypt files
+$(call inherit-product-if-exists, vendor/lge/hammerhead/lge/hammerhead/twrpDecrypt.mk)
+
 $(call inherit-product-if-exists, vendor/lge/hammerhead/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/lge/hammerhead/lge/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/lge/hammerhead/qcom/$(LOCAL_STEM))

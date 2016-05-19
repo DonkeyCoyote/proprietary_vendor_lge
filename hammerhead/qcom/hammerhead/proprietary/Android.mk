@@ -32,7 +32,7 @@ LOCAL_POST_INSTALL_CMD := \
         ln -sf /data/misc/audio/wcd9320_anc.bin \
         $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_anc.bin; \
         ln -sf /data/misc/audio/mbhc.bin \
-        $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_mbhc.bin
+        $(TARGET_OUT_ETC)/firmware/wcd9320/wcd9320_mbhc.bin;
 
 include $(BUILD_PREBUILT)
 
