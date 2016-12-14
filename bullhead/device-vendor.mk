@@ -100,7 +100,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/bullhead/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/bullhead/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so
+    vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/lge/bullhead/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so
 
 PRODUCT_PACKAGES += \
     HiddenMenu \
